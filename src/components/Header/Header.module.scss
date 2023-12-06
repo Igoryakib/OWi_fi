@@ -1,5 +1,4 @@
-@import "../../scss/styles.scss";
-
+@import '../../scss/variables';
 .header {
     display: flex;
     justify-content: space-around;
@@ -8,14 +7,14 @@
 }
 
 .logo {
-    color: #000;
+    color: $black;
     text-align: center;
-    font-family: Inter;
+    font-family: $inter;
     font-size: 21px;
     font-style: normal;
     font-weight: 600;
     .wi {
-        color: #0075ff;
+        color: $darkblue;
     }
 }
 
@@ -27,6 +26,6 @@
 }
 
 .light {
-    color: #fff !important;
-    background-color: #0075ff;
+    color: $white !important;
+    background-color: $darkblue;
 }
